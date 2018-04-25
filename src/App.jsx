@@ -4,6 +4,7 @@ import ContentForm from "./ContentForm";
 import ContentChildren from "./ContentChildren";
 import ContentStyled from "./ContentStyled";
 import ContentBootstrap from "./ContentBootstrap";
+import ContentEnv from "./ContentEnv";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -15,6 +16,7 @@ class App extends Component {
         <ContentForm />
         <ContentStyled />
         <ContentBootstrap />
+        <ContentEnv />
       </div>
     );
   }
